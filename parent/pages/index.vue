@@ -47,7 +47,7 @@ export default {
         console.log('welcome back!')
         console.log('token:', localStorage.getItem('token'))
       }
-      window.open('http://localhost:3001')
+      window.open('http://localhost:3000')
     }
   }
 }

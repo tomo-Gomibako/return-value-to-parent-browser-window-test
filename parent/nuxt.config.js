@@ -58,5 +58,9 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+  },
+  server: {
+    port: 3001,
+    host: '0.0.0.0'
   }
 }

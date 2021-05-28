@@ -41,7 +41,7 @@ export default {
         status: opt ? 'success' : 'failed',
         token: opt ? 'hogehoge' : ''
       }
-      window.location.href = `http://localhost:3000/callback${this.toQueryString(ret)}`
+      window.location.href = `http://localhost:3001/callback${this.toQueryString(ret)}`
     },
     toQueryString (obj = {}) {
       const keys = Object.keys(obj)
